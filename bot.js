@@ -9,7 +9,7 @@ const paypal = require('./reactions/paypal')
 const close = require('./reactions/close')
 const reopen = require('./reactions/reopen')
 const transcript = require('./reactions/transcript')
-const ticket = require('./reactions/delete')
+const ticket = require('./reactions/delete')     
 
 const client = new Discord.Client({partials: ['MESSAGE', 'CHANNEL', 'REACTION','USER','GUILD_MEMBER'] }); // Creating a new Client
 client.commands = new Discord.Collection(); // Accessing commands collection
